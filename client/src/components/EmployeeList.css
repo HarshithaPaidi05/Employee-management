@@ -1,0 +1,152 @@
+
+
+.employee-list-container {
+    padding: 20px;
+    background-color: #f0f8ff; }
+
+
+.employee-list-title {
+    margin: 10px 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333;
+    margin-top: 40px; }
+
+.header-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.title-container {
+    flex: 1; 
+}
+
+
+.total-count {
+    font-size: bold; 
+    margin-left:20px; 
+    color: #333;
+    margin-top: 35px;
+}
+
+
+
+.create-employee-button {
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left:900px;
+    transition: background-color 0.3s ease; 
+}
+
+
+.create-employee-button:hover {
+    background-color: #0056b3; 
+}
+
+
+.search-container {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.search-label{
+    margin-right: 20px;
+    margin-top: 0.5px;
+}
+
+
+.search-input {
+    padding: 10px; 
+    width: 100%;
+    max-width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+@media (max-width: 768px) {
+    .employee-table th,
+    .employee-table td {
+        padding: 8px; 
+        font-size: 14px; 
+    }
+    .search-input {
+        width: 100%; 
+        max-width: none; 
+    }
+}
+
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 60px; 
+}
+
+
+.employee-table th {
+    background-color: #f2f2f2; 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+    font-weight: bold; 
+}
+
+
+.employee-table td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+
+.employee-table tr:hover {
+    background-color: #f5f5f5; 
+}
+
+
+.employee-table button {
+    padding: 5px 10px;
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    margin-right: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.employee-table button:hover {
+    background-color: #0056b3; 
+}
+
+
+.employee-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+    .employee-table th,
+    .employee-table td {
+        padding: 8px; 
+        font-size: 14px; 
+    }
+}
